@@ -16,7 +16,9 @@ const Projects = () => (
           } else if (!b.endDate) {
             return 1
           } else {
-            return moment.utc(a.endDate).diff(moment.utc(b.endDate))
+            return moment
+              .utc(b.endDate, "MMM YYYY")
+              .diff(moment.utc(a.endDate, "MMM YYYY"))
           }
         })
         .map(project => (

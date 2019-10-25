@@ -15,7 +15,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs10.x
   region: ca-central-1
   stage: ${opt:stage, "prod"}
 
