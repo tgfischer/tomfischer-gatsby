@@ -38,7 +38,7 @@
     "serverless": "^1.42.1",
     "serverless-build-client": "^2.1.4",
     "serverless-finch": "^2.4.2",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "keywords": [
     "gatsby"
